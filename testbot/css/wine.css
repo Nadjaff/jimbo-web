@@ -1,0 +1,158 @@
+table.tftable {font-size:12px;color:#333333;width:50%;border-width: 1px;border-color: #a9a9a9;border-collapse: collapse;}
+table.tftable th {font-size:12px;background-color:#b8b8b8;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9a9a9;text-align:left;}
+table.tftable tr {background-color:#ffffff;}
+table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9a9a9;}
+th, td {
+max-width: 200px;
+word-wrap: break-word;
+}
+
+.userId{
+	display:none;
+}
+.newReturn{
+	display:none;
+}
+
+#loaderImage{
+	float:left;
+	margin-left:10px;
+	line-height:42px;
+}
+
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.header {
+	padding-top: 5px;
+}
+
+.leftArea {
+	position: absolute;
+	left: 10px;
+	top: 70px;
+	width: 260px;
+	border:solid 1px #CCCCCC;
+}
+
+.mainArea {
+	position: absolute;
+	top: 70px;
+	bottom: 20px;
+	left:300px;
+	width:873px;
+}
+
+.rightArea {
+	position: absolute;
+	top: 70px;
+	bottom: 20px;
+	left:650px;
+	width:270px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+
+li a { 
+	text-decoration:none;
+	display: block;
+	color: #000000;
+	border-bottom:solid 1px #CCCCCC;
+	padding: 8px;
+}
+
+li a:hover {
+	background-color: #2479B6;
+	color: #000;
+}
+
+input, textarea {
+  border:1px solid #ccc;
+  min-height:30px;
+  margin-top:15px;
+  outline: none;
+}
+
+.mainArea input {
+  margin-bottom:15px;
+  margin-top:15px;
+  width:560px;
+}
+
+.mainArea select {
+  margin-bottom:15px;
+  margin-top:15px;
+  min-height:30px;
+  width:560px;
+}
+textarea {
+	margin-bottom:15px;
+  	margin-top:15px;
+	height: 200px;
+  	width:560px;
+}
+
+label {
+	display:block;
+}
+
+.topButton {
+	padding:6px;
+	float:left;
+}
+.rowButton {
+	padding:6px;
+}
+.buttonHolder {
+	width:150px;
+}
+.customBtn {
+	height:50px;
+}
+
+.apilist0 {
+	font-weight:bold;
+	font-size:12px;
+}
+.apilist1 {
+	padding-left:20px;
+	font-size:12px;
+}
+.apilist2 {
+	padding-left:40px;
+	font-size:12px;
+	font-style:italic;
+}
+.apilist3 {
+	padding-left:60px;
+	font-size:12px;
+}
+
+#apiList span {
+	font-size: 12px !important;
+}
+
+
+#searchKey {
+	width:160px;
+}
+
+#apiList:hover {
+	cursor: pointer;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #2479B6;
+}
+
+.customBtn:hover {
+	cursor: pointer;
+	background-color: #2479B6;	
+}
