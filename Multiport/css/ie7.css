@@ -1,0 +1,57 @@
+@media (max-width: 378px) {
+	.form-header h4{
+		font-size: 20px;
+	}
+	
+	.container .multi-reasons {
+		max-height: 510px;
+	}
+}
+
+.container .form {
+	min-height: 550px;
+}
+
+.more-item {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.top_left {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: url("../images/top_left.png") 0 0 no-repeat;
+    width: 23px;
+    height: 23px;
+}
+
+.top_right {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background: url("../images/top_right.png") 0 0 no-repeat;
+    width: 23px;
+    height: 23px;
+}
+
+.bottom_left {
+    position: absolute;
+    bottom: -3px;
+    left: -2px;
+    background: url("../images/bottom_left.png") 0 0 no-repeat;
+    width: 23px;
+    height: 23px;
+}
+
+.bottom_right {
+    position: absolute;
+    bottom: -3px;
+    right: -2px;
+    background: url("../images/bottom_right.png") 0 0 no-repeat;
+    width: 23px;
+    height: 23px;
+}
+
+.left-col .more-item {
+    margin-bottom: 15px;
+}

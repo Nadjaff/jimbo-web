@@ -1,0 +1,484 @@
+@media (min-width: 1000px) {
+	.container .logo {
+		float: left;
+	}
+	.container .call {
+		float: right;
+	}
+}
+
+@media (max-width: 1131px) {
+	.container .multi-reasons {
+		text-align: center;
+		width: 100% !important;
+		height: 740px !important;
+		border-bottom: 0px !important;
+		overflow:visible;
+	}
+
+	.container .multi-reasons img {
+		margin-bottom: 20px;
+	}
+
+	.multi-reasons .awards {
+		display: block !important;
+		max-width: 600px !important;
+		border-bottom: 4px solid #004a91 !important;
+		margin-bottom: 0px !important;
+		margin: 0 auto;
+		border: 1px solid #E8E8E8;
+	}
+
+		.awards img {
+			margin-bottom: 0px !important;
+			border: 0px !important;
+		}
+}
+
+.multi-awards{
+	border: 1px solid #E8E8E8;
+}
+
+@media (max-width: 1099px) {
+	.webform_step {
+		width: 700px !important;
+	}
+
+	.wfe_component {
+		max-width: 90%;
+		float: none;
+		width: 450px;
+		background: #fff !important;
+		font-size: 16px;
+		float: none !important;
+		width: 450px;
+		margin: 0 15% !important;
+	}
+
+		.field_submit {
+			margin: 0 8% !important;
+		}
+
+	.form {
+		height: 740px !important;
+	}
+
+		.wfe_button {
+			margin-left: 20% !important;
+			margin-top: 0px !important;
+		}
+}
+
+@media (max-width: 1000px) {
+	.left-col {
+		float:left !important;
+		width: 100% !important;
+	}
+
+	.right-col {
+		float:left !important;
+		width: 100% !important;
+	}
+
+	.form {
+		height: 700px !important;
+	}
+}
+
+@media (max-width: 780px) {
+
+	.form {
+		height: 700px !important;
+	}
+
+	.container .header {
+		text-align: center;
+	}
+
+	.container .logo {
+		float:left;
+		margin-bottom: 40px;
+	}
+
+	.container .call {
+		float: none !important;
+		padding-bottom: 10px;
+		margin-bottom: 40px;
+	}
+
+	h2.title {
+		margin-top: 95px;
+	}
+	.wfe_component {
+		margin: 0 8% !important;
+	}
+
+	.field_submit {
+		margin: 0 !important;
+	}
+
+}
+
+@media (max-width: 685px) {
+	.multi-reasons img {
+		max-width: 600px !important;
+	}
+
+	.whyMultiport img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 550px) {
+	.webform_step {
+		width: 400px !important;
+		margin: 0px !important;
+	}
+
+	.wfe_component {
+		width: 100% !important;
+	}
+
+	.form {
+		height: 780px !important;
+	}
+
+	.field_role span {
+		width: 300px !important;
+		float: left !important;
+		clear: both !important;
+	}
+
+	.wfe_component label small {
+		float:left;
+	}
+}
+
+@media (max-width: 485px) {
+	.call {
+		width: 100%;
+	}
+
+	.container {
+		width: 400px;
+	}
+
+	.webform_step {
+		width: 320px !important;
+	}
+	.container .multi-reasons {
+		max-height: 630px;
+	}
+}
+
+@media (max-width: 378px) {
+	.call {
+		width: 100%;
+	}
+
+	.container {
+		width: 300px;
+	}
+
+	.webform_step {
+		width: 220px !important;
+	}
+	
+	.form {
+		height: 820px !important;
+	}
+
+	.form-header h4{
+		font-size: 30px;
+	}
+	.awards img{
+		width: 100%;
+	}
+	.container .multi-reasons {
+		max-height: 500px;
+	}
+	.form-header {
+		background: url(../images/header-bg-378.jpg) no-repeat;
+	}
+}
+
+@media (min-width: 640px) {
+	.container {
+		width: 90%;
+	}
+
+	.title {
+		width: 500px;
+	}
+}
+
+
+body{
+	background-color: #FFF;
+	color: #acadb2;
+}
+
+h2.title{
+	color: #004A91;
+	font-family: 'Neucha', serif;
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+	text-transform: none;
+}
+
+h1, h2, h3, h4 {
+	color: #004A91;
+	font-family: 'Neucha', serif;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+} 
+
+input[type="radio"] {
+	margin: 5px !important;
+	margin-top: -5px !important;
+}
+.container {
+	background-color: #FFF;
+	margin: 0 auto;
+	max-width: 1006px;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.container img{
+	padding: 0;
+	margin: 0;
+}
+
+.container p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.container .header{
+	height: 100px;
+}
+
+.container .logo{
+	padding-bottom: 10px;
+}
+
+.container .call {
+	float: right;
+	padding-bottom: 10px;
+}
+
+.container .multi-reasons{
+	margin-top: 40px;
+	height: 345px;
+	overflow: hidden;
+	border-bottom: 4px solid #004a91;
+	width: 1006px;
+}
+
+.multi-reasons div {
+	display: inline;
+}
+
+.container .form {
+	width: 100%;
+	background: #fff;
+	margin-top: 55px;
+	border-left: 1px solid #ECECFB;
+	border-right: 1px solid #ECECFB;
+	border-bottom: 1px solid #ECECFB;
+	border-bottom: 4px solid #004a91;
+	min-height: 500px;
+}
+
+	.form-header {
+		/*background: #004a91;*/
+		background: url(../images/header-bg.jpg) no-repeat;
+		padding: 5px 15px 15px 15px;
+	}
+
+		.form-header h4 {
+			margin: 0px;
+			color: #fff;
+		}
+
+	.webform_step {
+		width: 953px;
+		padding: 20px !important;
+		height: 320px;
+	}
+
+		.wfe_component {
+			background: #fff !important;
+			font-size: 16px;
+			float:left;
+			width: 450px;
+		}
+
+			.wfe_component td {
+				padding: 0px !important;
+			}
+
+			.wfe_component label {
+				font-family: 'Open Sans', sans-serif !important;
+				font-weight: 300;
+				padding: 0px;
+				padding-bottom: 0px;
+				margin-bottom: 5px;
+				font-size: 20px !important;
+				color:#004A91 !important;
+				float:left;
+			}
+
+				.wfe_component label small {
+					color: #aaa;
+					font-size: 12px;
+				}
+
+			.wfe_component input {
+				height: 40px;
+				border: 1px solid #dddde5;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 300;
+				padding: 5px;
+			}
+
+				.field_role label {
+					margin-right: 80px;
+				}
+
+				.field_role span {
+					width: 100px;
+				}
+
+				.field_role span label {
+					float:none;
+					width: 80px;
+				}
+
+			.wfe_component textarea {
+				border: 0px !important;
+				border: 1px solid #dddde5 !important;
+				font-family: 'Open Sans', sans-serif !important;
+				font-weight: 300;
+				padding: 5px;
+				height: 40px;
+			}
+
+		.wfe_button {
+			font-family: 'Neucha', serif !important;
+			width: 200px;
+			padding: 15px;
+			background: url(../images/submit-bg-small.png) no-repeat; /* Old browsers */
+			/*background: -moz-linear-gradient(top, #faa550 0%, #e18315 100%); /* FF3.6+ */
+			/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#faa550), color-stop(100%,#e18315)); /* Chrome,Safari4+ */
+			/*background: -webkit-linear-gradient(top, #faa550 0%,#e18315 100%); /* Chrome10+,Safari5.1+ */
+			/*background: -o-linear-gradient(top, #faa550 0%,#e18315 100%); /* Opera 11.10+ */
+			/*background: -ms-linear-gradient(top, #faa550 0%,#e18315 100%); /* IE10+ */
+			/*background: linear-gradient(to bottom, #faa550 0%,#e18315 100%); /* W3C */
+			/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faa550', endColorstr='#e18315',GradientType=0 ); /* IE6-9 */
+			border: 0px !important;
+			/*border-bottom: 4px solid #d27e00 !important;*/
+			-webkit-border-radius: 4px;
+			border-radius: 4px;
+			font-weight: 300;
+			height: 57px !important;
+			font-size: 36px !important;
+			color: #fff;
+			text-transform: uppercase;
+			margin: 0 auto;
+			margin-top: 35px;
+			behavior: url(../pie/PIE.htc);
+		}
+		
+
+.left-col {
+	float:left;
+	width: 49%;
+	display: block;
+}
+
+.right-col {
+	float:right;
+	width: 49%;
+	display: block;
+}
+
+.more h4 {
+	margin-bottom: 30px;
+}
+
+.more-item {
+	border: 2px solid #9ab7d3;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	padding: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+	behavior: url(../pie/PIE.htc);
+    position: relative;
+}
+
+	.more-item h5 {
+		color: #e58c00;
+		font-family: 'Neucha', serif;
+		font-size: 22px;
+		margin: 0px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.more-item li{
+		text-align: left;
+	}
+
+.container .footer {
+	float:left;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+	.footer-left {
+		float:left;
+		width: 50%;
+		display:block;
+	}
+
+	.footer-right {
+		float:left;
+		width: 50%;
+		display:block;
+		text-align: right;
+	}
+
+	.footer small a {
+		color: #acadb2;
+	}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.top_border {
+    position: absolute;
+    top: -4px;
+    left: -3px;
+    width: 493px;
+    height: 24px;
+    background: url("../images/top_border.png") 0 0 no-repeat;
+}
+
+.bottom_border {
+    position: absolute;
+    bottom: -4px;
+    left: -3px;
+    width: 493px;
+    height: 24px;
+    background: url("../images/bottom_border.png") 0 0 no-repeat;
+}

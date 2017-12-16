@@ -1,0 +1,519 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html body {
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans' sans-serif;
+  color: #FFF;
+}
+
+/* Typography
+/*-------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+.container {
+  margin:0;
+  padding:0;
+  width:100%;
+}
+
+header{
+  background-color: #cb4b45;
+  height: 110px;
+  line-height:110px
+}
+
+.margin-top {
+  margin-top: 110px;
+}
+
+.navbar{
+  background-color: #cb4b45;
+
+  line-height: 110px;
+
+}
+
+.logo{
+  float: left;
+}
+
+.logo img{
+  vertical-align:middle;
+  line-height:100px;
+}
+
+.tagline{
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.download-app{
+  float:right;
+  color: #FFF;
+}
+
+.download-app a img{
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.main-item{
+  margin-top:50px;
+  width: 100%;
+}
+
+
+.item .price {
+  float:right;
+  color: #cb4b45;
+  font-size: 18pt;
+  font-weight: 600;
+}
+
+.item .profile-image{
+  display: inline-block;
+  float: left;
+}
+
+.item .profile-image img {
+  border-radius: 100%;
+}
+
+.item .username{
+  color: #cb4c45;
+  font-size: 16px;
+  display:inline-block;
+  vertical-align:top;
+  margin-left:5px;
+  font-weight:600;
+}
+
+.item .hyphen{
+  color: #cccccc;
+  font-size: 16px;
+  display:inline-block;
+  vertical-align:top;
+  margin-left:10px;
+  font-weight:300
+}
+
+.item .date{
+  color: #cccccc;
+  font-size: 16px;
+  display:inline-block;
+  vertical-align:top;
+  margin-left:10px;
+  font-weight:300;
+}
+
+.item .location{
+  color: #cccccc;
+  font-size: 16px;
+  display:inline-block;
+  margin-left:5px;
+  font-weight:300;
+}
+
+.item .profile-info{
+  display:inline-block;
+}
+
+.item .item-photo{
+  margin-top:10px;
+}
+
+.item .item-photo img{
+  max-width: 100%;
+  width:100%;
+}
+
+.item-details {
+  float:left;
+  margin-top: 20px;
+}
+
+.item-details h2{
+  color: #4c4c4c;
+  font-size: 15pt;
+  margin-top:20px;
+  font-weight:600;
+}
+
+.item-details p{
+  font-size: 12pt;
+  font-weight:300;
+  color: #a5a4a4;
+}
+
+.comments{
+  margin-top:40px;
+}
+
+.comments strong{
+  font-size:15px;
+  color: #cb4b45;
+  font-weight:600;
+}
+
+.comments ul{
+  margin-top:5px;
+  padding:0;
+}
+
+.comments li{
+  list-style-type:none;
+  color: #4c4c4c;
+}
+
+.comments strong.comments-title{
+  color:#4c4c4c;
+  font-size:16px;
+  margin-bottom:5px;
+}
+
+.copyright {
+  font-size: 18px;
+  color: #b7b4b4;
+  margin-top:20px;
+}
+
+.copyright a{
+  color: #cb4b45;
+}
+
+.copyright a:hover{
+  opacity:.8;
+  color: #cb4b45;
+  text-decoration:none;
+}
+
+.download-btn{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.download-btn span{
+  font-size: 16px;
+  color: #cb4b45;
+  margin-left: 15px;
+}
+
+.download-btn a img{
+  width: 150px;
+}
+
+
+.download-btn2{
+  margin-top:20px;
+  margin-bottom:30px;
+  margin-left: 10px;
+}
+
+.download-btn2 a img{
+  width: 150px;
+}
+
+
+.btn-lg, .btn-group-lg > .btn{
+  color: none !important;
+  border: none !important;
+  padding: 0!important;
+}
+
+.btn-default:hover, .download-btn:focus{
+  opacity:.8;
+}
+
+.download-btn a:hover, .download-btn a:focus {
+    opacity:.8;
+}
+
+.contact-seller-form{
+  margin-top:60px;
+  /*background: #F6F5F2;
+padding: 5px 15px 15px 15px;
+border-radius: 5px;*/
+}
+
+.contact-seller-form h2{
+  font-size: 24px;
+  color: #cb4c45;
+  font-weight:400;
+}
+
+.contact-seller-form form{
+  margin-top:20px;
+}
+
+.contact-seller-form input, .contact-seller-form textarea{
+  border: none;
+  border-bottom: 2px solid #EEE;
+  color: #000;
+  font-size: 16px;
+  padding-left:15px;
+  font-weight:400;
+  background-color:transparent;
+}
+
+.contact-seller-form input{
+  width:49%;
+  padding-bottom:20px;
+}
+
+.contact-seller-form textarea{
+  width:100%;
+  margin-top:40px;
+  padding-bottom:50px;
+  resize:none;
+}
+
+.contact-seller-form input:focus, .contact-seller-form textarea:focus{
+  outline: none;
+}
+
+.contact-seller-form input::-webkit-input-placeholder{
+  color: #a5a4a4;
+}
+
+.contact-seller-form input:-moz-placeholder{
+  color: #a5a4a4;
+}
+
+.contact-seller-form input::-moz-placeholder{
+  color: #a5a4a4;
+  opacity:1;
+}
+
+.contact-seller-form input:-ms-input-placeholder{
+  color: #a5a4a4;
+}
+
+
+/* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+
+    }
+
+/* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+    }
+
+     @media only screen and (max-width:480px){
+      .logo{
+        width: 100%;
+        display:block;
+        text-align:center;
+        margin-left:0!important;
+        line-height:80px;
+      }
+
+      .logo a img{
+        height: 40px;
+      }
+
+      .logo a{
+        margin: 0 auto;
+      }
+
+      .download-app{
+        display:none;
+        width: 100%;
+        text-align:center;
+        margin-right: 0;
+      }
+
+      .item {
+        margin-top: -30px;
+      }
+
+      .main-item{
+        margin-top:20px !important;
+      }
+
+      .margin-top {
+        margin-top:20px;
+      } 
+
+      .navbar-fixed-top {
+        position: relative!important;
+        top: auto!important;
+      }
+    }
+
+/* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    @media only screen and (max-width : 768px) {
+      
+
+      .download-btn a img{
+        width: 150px;
+      }
+
+      .download-btn span{
+        display:none;
+      }
+    }
+
+/* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+      .item-details{
+        margin-top: 20px;
+      }
+      .profile-pic{
+        width:50px;
+      }
+
+      .item .profile-image{
+        width:50px;
+        height: 50px;
+      }
+      .item .price {
+        line-height:50px;
+      }
+      .item .profile-info{
+        height:50px;
+      }
+
+      .download-btn2 {
+        display:none;
+      }
+    }
+
+    @media only screen and (max-width:992px){
+      span.tagline{
+        display:none!important;
+      }
+
+      .logo{
+        margin-left:10px;
+      }
+
+      .download-app {
+        margin-right:10px;
+      }
+
+      .download-btn {
+        display:none;
+      }
+
+      .container, .col-md-6{
+        padding-left: 0!important;
+        padding-right:0!important;
+      }
+
+      .main-item{
+        margin-top:10px;
+      }
+
+      .item-header{
+        padding: 5px 10px;
+      }
+
+      .profile-pic{
+        width:50px;
+      }
+
+      .item .profile-image{
+        width:50px;
+        height: 50px;
+      }
+      .item .price {
+        line-height:50px;
+      }
+      .item .profile-info{
+        height:50px;
+      }
+
+      .item-details h2 {
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:0px;
+      }
+
+      .item-details p{
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .contact-seller-form{
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .contact-seller-form h2{
+        margin-left: 0px;
+      }
+
+      .contact-seller-form form{
+        margin-top:20px;
+      }
+    }
+
+
+/* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }

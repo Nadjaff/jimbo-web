@@ -1,0 +1,415 @@
+/* Vendor - All Downloadable Plugins here
+/*-------------------------------------------------------------*/
+
+@import "vendor/font-awesome";
+
+
+/* ------------------------------------------------------------*/
+/* All Override Style Starts Here.
+/* ------------------------------------------------------------*/
+
+
+body {
+    font-size: 18px;
+    color: #b7b4b4;
+    font-family: 'open_sans';
+}
+
+/* Typography
+/*-------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, div, p, a, ul, ol, li, dl, dt, dd {
+    margin-top: 0;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 25px;
+}
+
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+a {
+    color: #cb4b45;
+}
+
+a:hover {
+    color: #b7413c;
+}
+
+
+.email {
+    color: #b7b4b4;
+}
+
+/* Header
+/*-------------------------------------------------------------*/
+
+.header {
+    background-color: #cb4b45;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    color: #ffffff;
+}
+
+.navbar {
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.navbar-brand {
+    background: url(../images/logo.png) 0 0 no-repeat;
+    width: 194px;
+    height: 53px;
+    float: left;
+    margin: 0 !important;
+}
+
+.navbar-right {
+    margin: 0;
+    font-weight: 300;
+}
+
+.navbar-right a:hover{
+  opacity: .8;
+}
+
+.intro h1 {
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-size: 32px;
+    /* was 36px */
+}
+
+
+
+
+
+/* Button */
+
+
+.btn {
+    font-weight: bold;
+}
+
+.btn-default {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #cb4b45;
+}
+
+.btn-default:hover, .btn-default:focus {
+    background: #e1e1e1;
+    border-color: #e1e1e1;
+    color: #cb4b45;
+}
+
+.btn-lg {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.google-btn {
+    margin-left: 20px;
+}
+
+
+/* Social */
+
+.social {
+    color: #adadad;
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.social a:hover{
+  opacity: .8;
+}
+
+
+
+
+
+/* Main
+/*-------------------------------------------------------------*/
+
+
+.main {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 625px;
+}
+
+.container {
+    position: relative;
+}
+
+.main-content {
+    min-height: 320px;
+}
+
+.content {
+    padding-left: 430px;
+}
+
+
+.download-btn .btn {
+    margin-right: 20px;
+}
+
+
+/* Slideshow */
+
+.iphone {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.slideshow {
+    background: url(../images/iphone.png) 0 0 no-repeat;
+    width: 380px;
+    height: 725px;
+    display: block;
+    padding: 75px 19px 95px 48px;
+}
+
+.slideshow .slide {
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    height: 555px;
+}
+
+.slick-dots {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.slick-dots li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.slick-dots li a {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: block;
+    background-color: #cccccc;
+    text-indent: -99999px;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active a {
+    background-color: #c84c48;
+}
+
+
+
+/* ------------------------------------------------------------*/
+/* Media Queries - Responsive Styles Here.
+/* ------------------------------------------------------------*/
+
+/* All Devices expect mobile */
+@media (min-width: $screen-sm) {
+
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .header {
+        text-align: center;
+    }
+
+    .navbar {
+        margin-bottom: 60px;
+    }
+
+    .navbar-brand {
+        float: none !important;
+        margin: 0 auto 40px auto !important;
+        display: block;
+    }
+
+    .navbar-right {
+        float: none !important;
+        display: block;
+    }
+
+    .google-btn {
+        margin-left: 0px;
+        margin-top: 20px;
+        display: block;
+    }
+
+
+    .content {
+        padding-left: 0;
+    }
+
+    .intro {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .download-btn {
+        display: block;
+    }
+
+    .download-btn .btn {
+        display: block;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+
+    .iphone {
+        position: relative;
+        top: 0;
+        left: 0;
+        zoom: 0.7;
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .slick-dots li.slick-active a {
+        background-color: #ffffff;
+    }
+
+    .social {
+        float: none !important;
+        display: block;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    .social {
+        float: none !important;
+        display: block;
+    }
+
+    .download-btn {
+        display: block;
+    }
+
+    .download-btn .btn {
+        display: block;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Desktop / Large Screen */
+@media (min-width: 1200px) {
+
+}
+
+.main-content p {
+    color: #ADADAD;
+    font-weight: 100;
+}
+
+p.copyright{
+	font-size: 16px;	
+}
+
+
+.copyright a{
+	color: #c84c48;
+}
+.copyright a:hover{
+	text-decoration: none;	
+	opacity: .8;
+}
+
+.download-btn a {
+    font-weight: 500;
+}

@@ -1,0 +1,7 @@
+/*YOUR CUSTOM STYLES*/
+@import "../css/schemes/red.css"
+
+
+.not-valid {
+	border-color: red; !important;
+}
