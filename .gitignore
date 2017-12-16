@@ -1,0 +1,5 @@
+api/3/vendor
+#vendor
+vendor/*
+testbot/testuploads
+images/uploads

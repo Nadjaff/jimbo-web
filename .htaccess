@@ -1,0 +1,7 @@
+RewriteEngine On 
+RewriteRule ^images/uploads/profile/default_([a-zA-Z0-9]+)_([a-zA-Z0-9]+)_([0-9]+)_([0-9]+)\.jpg$ /resize.php?type=profile&col=$1&imgpath=default&ini=$2&w=$3&h=$4 [QSA,L]
+RewriteRule ^images/uploads/profile/default_([a-zA-Z0-9]+)_([a-zA-Z0-9]+)\.jpg$ /resize.php?type=profile&col=$1&imgpath=default&ini=$2&w=100&h=100 [QSA,L]
+RewriteRule ^images/uploads/items/([a-zA-Z0-9]+)_([0-9]+)_([0-9]+)\.jpg$ /resize.php?type=items&imgpath=$1&w=$2&h=$3 [QSA,L]
+RewriteRule ^images/uploads/profile/([a-zA-Z0-9]+)_([0-9]+)_([0-9]+)\.jpg$ /resize.php?type=profile&imgpath=$1&w=$2&h=$3 [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule ^(.*)$ %{ENV:BASE}index.php [QSA,L]
